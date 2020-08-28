@@ -15,11 +15,11 @@ public class Ex_switch_case {
         System.out.println("Select: ");
         int s = scanner.nextInt();    // Input integer from user
 
-        switch (s) { //int or char
-            case 1: System.out.println("Wow, I Like berger at KFC.");
-            case 2: System.out.println("You have to spend 300 THB per person.");
-            case 3:System.out.println(" I do not like pizza.");break;
-            default:System.out.println("Please select 1-3. thank.");
+                switch (s) { //int or char
+                    case 1: System.out.println("Wow, I Like berger at KFC.");
+                    case 2: System.out.println("You have to spend 300 THB per person.");
+                    case 3:System.out.println(" I do not like pizza.");break;
+                    default:System.out.println("Please select 1-3. thank.");
 
 
 
